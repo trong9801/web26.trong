@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		do{
+				var n = prompt('Nhập vào n số nguyên');
+				var S =0;
+				if (n<=0) {
+					alert('Bạn cần nhập n >0');
+
+				}
+				else{
+					var i =1;
+					do{
+						
+						S +=i;
+						i++;
+					}while(i<=n)
+					document.write('Kết quả của dãy S = 1 + 2 +...+ n =' +S);
+				}
+			}while(n<=0)
+	</script>
+</body>
+</html>

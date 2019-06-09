@@ -1,0 +1,23 @@
+.a1{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 15%;
+	color: red;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid gray;
+	font-size: 100%;
+}
+.b2{
+	font-weight: bold;
+	font-size: 20px;
+}
+.a1:hover{
+	border: 1px solid red;
+}
+.b1:hover{
+	color: #ff7f00;
+}
+.b2:hover{
+	color: #ff7f00;
+}

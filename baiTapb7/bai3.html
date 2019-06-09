@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="">
+					do{
+				var n = prompt('Nhập vào số phần tử :')
+				var S=0;
+				var giaiThua=1;
+				if (n<=0) {
+					alert('n cần nhập lớn 0');
+
+				}
+				else{
+					for (var i = 1; i <=n; i++) {
+						giaiThua =1;
+						for (var j = 1; j <=i; j++) {
+							giaiThua *= j;
+						}
+						S = S+ (i/giaiThua);
+					}
+					document.write('Kết quả của dãy S =1/1! + 2/2! + 3/3! +...+ n/n! = ' +S);
+				}
+			}while(n<=0)
+	</script>
+</body>
+</html>

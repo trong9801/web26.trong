@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#cha{
+			position: relative;
+		}
+		.c1{
+			width: 300px;
+			height: 500px;
+			color: white;
+		}
+		#a1{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background-color: red;
+			z-index: 0;
+		}
+		#a2{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background-color: gray;
+			z-index: 5;
+		}
+		#a3{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background-color: yellow;
+			color: red;
+			z-index: 3;
+		}
+		#a4{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background-color: blue;
+			z-index: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="cha">
+		<div class="c1" id="a1">1</div>
+		<div class="c1" id="a2">2</div>
+		<div class="c1" id="a3">3</div>
+		<div class="c1" id="a4">4</div>
+	</div>
+</body>
+</html>

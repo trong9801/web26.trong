@@ -1,0 +1,545 @@
+#header{
+	width: 100%;
+	height: 20%;
+}
+.header-top{
+	width: 100%;
+	height: 10%;
+}
+.header-center{
+	width: 100%;
+	height: 70%;
+}
+.header-bottom{
+	width: 100%;
+	height: 20%;
+}
+#ht-left{
+	display: block;
+	float: left;
+	width:8%;
+	padding-left: 3%;
+	font-size: 300%;
+}
+#ht-left p{
+	margin-top: 7% !important;
+	margin-bottom: 4% !important;
+	color: #ff5b00;
+}
+#ht-left p a{
+	text-decoration: none;
+	color: black;
+}
+.ht-child-right1 a{
+	color: #ff5b00;
+}
+.ht-child-right2 a{
+	color: black;
+}
+#ht-right{
+	display: block;
+	float: right;
+	width: 50%;
+	padding-top: 0px;
+}
+.header-bottom h2{
+	padding-top: 3%;
+}
+#ht-right ul > li{
+	list-style-type: none;
+	float: left;
+	padding-left: 40px;
+}
+#ht-right ul > li a {
+	text-decoration: none;
+}
+#ht-right .bar{
+	display: none;
+	border: 1px solid silver;
+	border-radius: 7px;
+}
+.clear{
+	clear: both;
+}
+#ht-left:hover p{
+	color: red;
+}
+#ht-left:hover p a{
+	color: red;
+}
+.a1:hover a{
+	color: red;
+}
+.a2:hover a{
+	color: red;
+}
+.a3:hover a{
+	color: red;
+}
+.a4:hover a{
+	color: red;
+}
+.a5:hover a{
+	color: red;
+}
+.conten{
+	width: 100%;
+	height: 60%;
+}
+.b1{
+	width: 100%;
+	height: 20%;
+	clear: both;
+}
+.ct-1{
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+.ct-1 ul>li {
+	list-style-type: none;
+	float: left;
+	padding-left: 0px;
+	padding-top: 5%;
+	width: 25%;
+}
+.ct-1 ul>li h3{
+	padding-top: 5%;
+}
+.ct-1 ul>li .conten-bar-top{
+	position: relative;
+	left: 30%;
+	width: 100px;
+	height: 100px;
+	background-color: #ff5b00;
+	border-radius: 50%;
+}
+.ct-1 ul>li .conten-bar-top .fa-cogs{
+	color: white;
+	font-size: 250%;
+	padding-left: 30%;
+	padding-top: 30%;
+}
+.ct-1 ul>li .conten-bar-top .fa-heart-o{
+	color: white;
+	font-size: 250%;
+	padding-left: 30%;
+	padding-top: 30%;
+}
+.ct-1 ul>li .conten-bar-top .fa-laptop{
+	color: white;
+	font-size: 250%;
+	padding-left: 30%;
+	padding-top: 30%;
+}
+.ct-1 ul>li .conten-bar-top .fa-tree{
+	color: white;
+	font-size: 250%;
+	padding-left: 33%;
+	padding-top: 30%;
+}
+.ct-1 ul>li  h3 a{
+	text-decoration: none;
+	color: black;
+}
+.ct-1 ul #ct1a:hover h3 a{
+	color: red;
+} 
+.ct-1 ul #ct1b:hover h3 a{
+	color: red;
+} 
+.ct-1 ul #ct1c:hover h3 a{
+	color: red;
+} 
+.ct-1 ul #ct1d:hover h3 a{
+	color: red;
+} 
+.ct3a{
+	padding-left: 5%;
+	padding-top: 5%;
+	width: 40%;
+	float: left;
+}
+.ct3a:hover{
+	opacity: 0.6;
+}
+.ct-4 ul>li {
+	list-style-type: none;
+	width: 27%;
+	float: left;
+	padding-left:3%;
+	padding-top: 8%;
+}
+.ct-4 ul>li .ct4a{
+	position: relative;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+	background-color:#ff5b00;
+	border-radius: 50%;
+}
+.ct-4 ul>li .ct4a .fa-rocket{
+	color: white;
+	font-size: 150%;
+	padding-left: 25%;
+	padding-top: 26%;
+}
+.ct-4 ul>li .ct4a .fa-heart-o{
+	color: white;
+	font-size:150%;
+	padding-left: 25%;
+	padding-top: 26%;
+}
+.ct-4 ul>li .ct4a .fa-camera{
+	color: white;
+	font-size: 150%;
+	padding-left: 25%;
+	padding-top: 26%;
+}
+.ct4a{
+	margin-top: 5%;
+	float: left;
+	width: 25%;
+}
+.text{
+	padding-top: 0px;
+	float: right;
+	width: 70%;
+}
+.ct-4 ul>li .text h2 a{
+	text-decoration: none;
+	color: black;
+}
+.ct-4 ul #c1:hover .text h2 a{
+	color: red;
+}
+.ct-4 ul #c2:hover .text h2 a{
+	color: red;
+}
+.ct-4 ul #c3:hover .text h2 a{
+	color: red;
+}
+.cb{
+	background-color: #ff5b00;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-top: 15%; 
+	margin-bottom: 5%;
+	color: white;
+}
+.bton{
+	border-radius: 10px;
+}
+.bton:hover{
+	color: red;
+}
+.ct-6{
+	background: #e0e0e0;
+	text-align: center;
+	padding-bottom: 60px;
+	padding-top: 50px;
+}
+.ct-6 h4{
+	margin: 0px;
+	color: #666666;
+}
+.ct-6.anh1 h4{
+	padding: 20px 0 5px 0 !important;
+}
+.ct-6 h3{
+	margin:0px;
+	padding: 10px 20px 30px 20px;
+	color: #666666;
+}
+.ct-6 .anhthe .anh1{
+	float: left;
+	box-sizing: border-box;
+	width: 25%;
+	padding: 10px 30px;
+}
+.ct-6 .anhthe .anh1 img{
+	border-radius: 10px;
+	width: 60%;
+}
+.ct-6 .anhthe .anh1 img:hover{
+	opacity: 0.5;
+}
+.ct-6 .anhthe .anh1 h4 a{
+	text-decoration: none;
+	color: #666666;
+}
+.ct-6 .anhthe .anh1 h4 a:hover{
+	color: blue;
+}
+.ct-6 .anhthe .anh1 p {
+	margin-top: 0px;
+	font-size: 8px;
+	color: #666666;
+}
+/* phần footer*/
+.footer{
+	margin: 0 auto;
+	width: 100%;
+}
+.footerhead{
+	background: #333333;
+}
+.footerhead ul{
+	margin: 0px;
+}
+.footerhead ul>li{
+	list-style: none;
+	float: left;
+	width: 32%;
+	padding: 40px 10px;
+	box-sizing: border-box;
+}
+.footerhead ul>li>a{
+	text-decoration: none;
+	color: #fff;
+}
+.footerhead ul>li>a:hover{
+	color: red;
+}
+.footerhead ul li p{
+	font-size: 8px;
+	color: #fff;
+	margin: 15px 0;
+}
+.footerhead ul li.headli i{
+	float: left;
+	background: black;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 10px;
+	padding: 5px;
+	margin:0px 5px; 
+}
+.footerhead ul li.headli i:hover{
+	opacity: 0.5;
+}
+.footerhead ul li.cenli p{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 5px;
+	font-size: 10px;
+}
+.footerhead ul li.cenli p a{
+	color: #fff;
+	text-decoration: none;
+}
+.footerhead ul li.cenli p a:hover{
+	text-decoration: underline;
+}
+.footerhead ul li.cenli p.pfoot{
+	border-bottom: none;
+}
+.footerhead ul li.footli p{
+	font-size: 10px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 5px;
+}
+.footerhead ul li.footli p a{
+	color: #fff;
+	text-decoration: none;
+}
+.footerhead ul li.footli p a:hover{
+	text-decoration: underline;
+}
+.footerhead ul li.footli p.pfoot{
+	border-bottom: none;
+}
+.footfoot{
+	background: black;
+}
+.footfoot ul{
+	margin: 0px;
+}
+.footfoot ul li{
+	list-style: none;
+	float: left;
+	padding: 15px 20px 15px 0px;
+}
+.footfoot ul li.gt{
+	color: #fff;
+	font-size: 12px;
+	padding-top: 20px;
+	float: left;
+}
+.footfoot ul li.footright{
+	float: right;
+}
+.footfoot ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 12px;
+}
+.footfoot ul li a:hover{
+	color: red;
+}
+
+@media(min-width: 426px) and (max-width: 768px){
+	#ht-right {
+		width:70%;
+		/*position: relative;
+		left: -10%;*/
+	}
+	#ht-right ul > li{
+		width: 18%;
+		padding-left: 5px;
+	}
+	#ht-right ul > li a{
+		font-size: 60%;
+	}
+	.ct-4 ul> li{
+		display: block;
+		width:100%;
+		clear: both ;
+	}
+	.ct-4 ul> li .text{
+		font-size: 80%;
+		position: relative;
+	}
+	.ct-4 ul> li .ct4a{
+		position: relative;
+		left: 0%;
+		top: 15%;
+	}
+	button{
+		font-size: 10px;
+	}
+	.ct-6 .anhthe .anh1{
+		width: 100%;
+	}
+	.ct-6 .anhthe .anh1 p{
+		font-size: 10px;
+	}
+	.ct-6 .anhthe .anh1 img{
+		width:60%;
+	}
+	.footerhead ul>li{
+		width: 100%;
+		padding: 20px 30px 30px 0px;
+	}
+	.footfoot ul li.gt{
+		padding-bottom: 0px;
+		width: 90%;
+	}
+}
+@media(min-width: 769px) and (max-width: 1024px){
+	#ht-right {
+		width:70%;
+	}
+	#ht-right ul > li{
+		width: 18%;
+		padding-left: 5px;
+	}
+	#ht-right ul > li a{
+		font-size: 60%;
+	}
+	.ct-6 .anhthe .anh1 p{
+		font-size: 10px;
+	}
+	.ct-6 .anhthe .anh1 img{
+		width: 100%;
+	}
+	.footerhead ul>li{
+		width: 100%;
+		padding: 20px 30px 30px 0px;
+	}
+	.footfoot ul li.gt{
+		padding-bottom: 0px;
+		width: 90%;
+	}
+}
+@media(max-width: 425px){
+	.ht-child-right1{
+		display: none;
+	}
+	.ht-child-right2{
+		display: none;
+	}
+	.header-top #ht-right .bar{
+		display: inline-block;
+		position: relative;
+		right:-75%;
+		font-size: 170%;
+		color: silver;
+	}
+	.conten .ct-1 ul>li .conten-bar-top{
+		height: 50px;
+		width: 50px;
+	}
+	.conten .ct-1 ul>li{
+		width: 100%;
+	}
+	.conten .ct-1 ul>li .conten-bar-top .fa-cogs{
+		font-size: 150%;
+		padding-left: 25%;
+		padding-top: 26%;
+	}
+	.conten .ct-1 ul>li .conten-bar-top .fa-tree{
+		font-size: 150%;
+		padding-left: 25%;
+		padding-top: 26%;
+	}
+	.conten .ct-1 ul>li .conten-bar-top .fa-heart-o{
+		font-size: 150%;
+		padding-left: 25%;
+		padding-top: 26%;
+	}
+	.conten .ct-1 ul>li .conten-bar-top .fa-laptop{
+		font-size: 150%;
+		padding-left: 25%;
+		padding-top: 26%;
+	}
+	.conten .ct-1 ul>li h3 a{
+		font-size: 75%;
+	}
+	.ct3a{
+		width: 70%;
+		margin-left: 15%;
+	}
+	.ct-4 ul> li{
+		display: block;
+		width:100%;
+		clear: both ;
+	}
+	.ct-4 ul> li .text{
+		font-size: 80%;
+		position: relative;
+	}
+	.ct-4 ul> li .ct4a{
+		position: relative;
+		left: -15%;
+		top: 15%;
+	}
+	button{
+		font-size: 10px;
+	}	
+	.ct-6 .anhthe .anh1{
+		width: 100%;
+	}
+	.ct-6 .anhthe .anh1 p{
+		font-size: 8px;
+	}
+	.ct-6 .anhthe .anh1 img{
+		width: 60%;
+	}
+	.footerhead ul>li{
+		width: 100%;
+		padding: 20px 30px 20px 0px;
+	}
+	.footfoot ul li.gt{
+		padding-bottom: 0px;
+		width: 95%;
+		font-size: 10px;
+	}
+	.footfoot ul li a{
+		font-size: 8px;
+	}
+	.footfoot ul li{
+		padding-right: 5px;
+	}
+	.footerhead ul li.headli i{
+		margin: 0 2px;
+	}
+}

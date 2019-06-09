@@ -1,0 +1,238 @@
+body{
+	background-image: url("anh/bg.jpg");
+	background-size: cover;
+}
+#to{
+	width: 100%;
+}
+#zent{
+	width: 20%;
+	display: inline-block;
+	position: relative;
+	left: 3%;
+	top: 30%;
+}
+#zent a{
+	color: #ff7f00;
+	text-decoration: none;
+}
+#zent a:hover{
+	color: red;
+}
+#menutop{
+	display: inline-block;
+	width: 20%;
+	position: absolute;
+	right: 20%;
+	top: 10px;
+}
+.menutop1{
+	width: 20%;
+	height: 50%;
+	display: inline-block;
+	float: left;
+}
+.menutop1:hover{
+	width: 20%;
+	height: 50%;
+	color:red;
+	background-color: silver;
+	border-style: outset;
+	border-radius: 10px;
+}
+#menuleft{
+	width: 20%;
+}
+#menu-left ul{
+	width: 100px;
+	height: 50%;
+	list-style-type: none;
+}
+#menu-left ul > li a{
+	text-decoration: none;
+	color: gray;
+}
+#menu-left ul > li:hover a{
+	color: red;
+}
+.center{
+	width: 170px;
+	background-color: silver;
+	border-radius: 20px;
+}
+#d1{
+	position: absolute;
+	left: 18%;
+	top: 80px;
+}
+.top-tech{
+	width: 170px;
+}
+.top-tech h3 a{
+	text-decoration: none;
+	color: black;
+}
+.top-tech h3:hover a{
+	color: red;
+}
+#a1{
+	width: 170px;
+	height: 150px;
+	background-image: url("anh/ip.jpg");
+	background-size: cover;
+	position: relative;
+	border-radius: 0px 0px 20px 20px;
+}
+#a1:hover{
+	width: 210px;
+	height: 210px;
+	z-index: 2;
+}
+.bottom-tech{
+	text-indent: 5px;	
+	vertical-align: top;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	color: white;
+	width: 100%;
+	height: 25%;
+	position: absolute;
+	bottom: 0;
+	border-radius:0px 0px 20px 20px;
+	background-color: black;
+	opacity: 0.5;
+}
+#d2{
+	position: absolute;
+	left: 32%;
+	top: 80px;
+}
+#a2{
+	width: 170px;
+	height: 150px;
+	background-image: url("anh/travel.jpg");
+	background-size: cover;
+	position: relative;
+	border-radius: 0px 0px 20px 20px;
+}
+#a2:hover{
+	width: 210px;
+	height: 210px;
+	z-index: 2;
+}
+#d3{
+	position: absolute;
+	left: 46%;
+	top: 80px;
+}
+#a3{
+	width: 170px;
+	height: 150px;
+	background-image: url("anh/photo.jpg");
+	background-size: cover;
+	position: relative;
+	border-radius: 0px 0px 20px 20px;
+}
+#a3:hover{
+	width: 210px;
+	height:210px;
+	z-index: 2;
+}
+#d4{
+	position: absolute;
+	left: 18%;
+	top: 310px;
+}
+#a4{
+	width: 170px;
+	height: 150px;
+	background-image: url("anh/finance.jpg");
+	background-size: cover;
+	position: relative;
+	border-radius: 0px 0px 20px 20px;
+}
+#a4:hover{
+	width: 210px;
+	height: 210px;
+	z-index: 2;
+}
+#d5{
+	position: absolute;
+	left: 32%;
+	top: 310px;
+}
+#a5{
+	width: 170px;
+	height: 150px;
+	background-image: url("anh/movie.jpg");
+	background-size: cover;
+	position: relative;
+	border-radius: 0px 0px 20px 20px;
+}
+#a5:hover{
+	width:210px;
+	height:210px;
+	z-index: 2;
+}
+#d6{
+	position: absolute;
+	left: 46%;
+	top: 310px;
+}
+#a6{
+	width: 170px;
+	height: 150px;
+	background-image: url("anh/cooking.jpg");
+	background-size: cover;
+	position: relative;
+	border-radius: 0px 0px 20px 20px;
+}
+#a6:hover{
+	width: 210px;
+	height: 210px;
+	z-index: 2;
+}
+#d7{
+	position: absolute;
+	left: 18%;
+	top: 540px;
+}
+#a7{
+	width:170px;
+	height: 150px;
+	background-image: url("anh/photo.jpg");
+	background-size: cover;
+	position: relative;
+	border-radius: 0px 0px 20px 20px;
+}
+#a7:hover{
+	width: 210px;
+	height: 210px;
+	z-index: 2;
+}
+#foot{
+	position: relative;
+	top: 400px;
+}
+#foot p{
+	font-size: 15px;
+	float: left;
+	margin-top:70px;
+	margin-right:13px;  
+}
+#foot ul{
+	list-style-type: none;
+}
+#foot ul >li a{
+	float: left;
+	text-decoration: underline;
+	margin-right:10px;
+	margin-top:70px; 
+}
+#foot ul>li:hover a{
+	float: left;
+	color: red;
+	text-decoration: underline;
+	margin-right:10px;
+	margin-top:70px; 
+}

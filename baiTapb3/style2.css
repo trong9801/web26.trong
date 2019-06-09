@@ -1,0 +1,75 @@
+
+.a1{
+	height: auto;
+	width:1200px;
+	background-color: gray;
+	display: block;
+}
+#c1{
+
+}
+#c2{
+	font-weight: bold;
+	;
+}
+.d1{
+	margin-left: : 2px;
+	display: inline-block;
+	width: 300px;
+	height: 80px;
+	float: left;
+}
+.d2{
+	margin-left: : 2px;
+	display: inline-block;
+	width: 300px;
+	height: 80px;
+	float: left;
+}
+.d3{
+	margin-left: : 2px;
+	display: inline-block;
+	width: 300px;
+	height: 80px;
+}
+.d4{
+	margin-left: : 2px;
+	display: inline-block;
+	width: 300px;
+	height: 80px;
+	float: right;
+
+}
+#b1:hover{
+	color: blue;
+	text-decoration: underline;
+
+}
+#b2:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#b3:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#b4:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#b5:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#b6:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#b7:hover{
+	color: blue;
+	text-decoration: underline;
+}
+#b8:hover{
+	color: blue;
+	text-decoration: underline;
+}

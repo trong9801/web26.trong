@@ -1,0 +1,105 @@
+#head{
+	width: 100%; 	
+}
+.menuhead{
+	display: inline-block;
+	background-color:#54b043;
+	float: left;
+	color: white;
+	border-right: 1px solid white;
+	position: relative;
+	height: 60px;
+}
+#a1{
+	width: 120px;
+}
+#a2 a{
+	color: white;
+	text-decoration: none;
+}
+#a2{ 
+	width: 145px;
+	padding-left: 15px;
+	/*padding-top: 5px;*/
+	margin-bottom: 50px;
+}
+#a2 ul{
+	background-color: #96d854;
+	width: 180px;
+	list-style-type: none;
+	position: absolute;
+	left:-80px;
+	top: 44px;
+	text-align: left;
+	padding-left: 0px;
+}
+#a2 ul>li{
+	border-bottom: 1px solid #54b043;
+}
+.fa-arrow-right{
+	color: white;
+}
+#li211{
+	position: relative;
+}
+#a211{
+	margin-left: 260px !important;
+	top: 0px !important;
+}
+#a3{
+	width: 1000px;
+}
+#a3 ul{
+	list-style-type: none;
+}	
+#a3 ul>li a{
+	color: white;
+	float: left;
+	text-decoration: none;
+	margin-top: 5px;
+	margin-right: 10px;
+	border-right: 1px solid white; 
+	padding-right: 5px;
+}
+/*#clear{
+	clear: both;
+}*/
+#a03 a{
+	border-right: none !important;
+}
+#a031{
+	padding-right: 20px;
+	float: right;
+}
+.fa-search{
+	color: white;
+}
+#a2 ul{
+	display: none;
+}
+#a2:hover ul{
+	display: inline-block;
+}
+#a2 ul> #li211 >ul{
+	display: none;
+}
+#a21:hover #li211 ul{
+	display: inline-block;
+}
+#list3{
+	padding-left: 0px;
+	width: 180px;
+	background-color: #96d854;
+	clear: both;
+	list-style-type: none;
+	position: absolute;
+	top: 55px;
+	left: 35px;
+	border-right: none !important ;
+}
+#a3 ul > li > ul{
+	display: none;
+}
+#li1:hover ul{
+	display: inline-block;
+}

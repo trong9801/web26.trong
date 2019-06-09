@@ -1,0 +1,12 @@
+#mienBac li{
+	color: red;
+}
+div ul{
+	color: blue;
+}
+div > ul{
+	color: green;
+}
+div + p{
+	color: yellow;
+}
