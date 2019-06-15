@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="anh head">
+			<img src='img/a1.jpg'>
+		</div>
+		<div class="anh">
+			<img src="img/a2.png">
+		</div>
+		<div class="anh">
+			<img src="img/a3.jpg">
+		</div>
+		<div class="anh">
+			<img src="img/a4.jpg">
+		</div>
+		<div class="anh">
+			<img src="img/a5.jpg">
+		</div>
+		<div class="anh">
+			<img src="img/a6.jpg">
+		</div>
+		<button id="left" onclick="left()"><i class="fas fa-chevron-left"></i></button>
+		<button id="right" onclick="right()"><i class="fas fa-chevron-right"></i></button>
+		<div class="choose">
+			<p class="cham active" onclick="bt(0)"></p>
+			<p class="cham" onclick="bt(1)"></p>
+			<p class="cham" onclick="bt(2)"></p>
+			<p class="cham" onclick="bt(3)"></p>
+			<p class="cham" onclick="bt(4)"></p>
+			<p class="cham" onclick="bt(5)"></p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var dem=0;
+	var anh=document.getElementsByClassName('anh');
+	var length= anh.length;
+	var button= document.getElementsByClassName('cham');
+	function left(){
+		dem--;
+		for (var i = anh.length-1; i >=0; i--) {
+			anh[i].className='anh';
+			button[i].className='cham';
+		}
+		if(dem<0){
+			dem=anh.length-1;
+		}
+		anh[dem].className='anh head';
+		button[dem].className='cham active';
+	}
+	function right(){
+			dem++;
+			for (var i = anh.length-1; i >=0; i--) {
+				anh[i].className='anh';
+				button[i].className='cham';
+			}
+			if(dem>anh.length-1){
+				dem=0;
+			}
+			anh[dem].className='anh head';
+			button[dem].className='cham active';
+		}
+
+		function bt(n){
+			for (var i = anh.length-1; i >=0; i--) {
+				anh[i].className='anh';
+				button[i].className='cham';
+			}
+			dem=n;
+			anh[dem].className='anh head';
+			button[dem].className='cham active';
+		}
+	</script>
+</body>
+</html>

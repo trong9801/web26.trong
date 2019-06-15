@@ -1,0 +1,65 @@
+body{
+	background-image: url('img/a7.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 60%;
+	margin: 10px auto;
+	position: relative;
+}
+.anh{
+	position: relative;
+	display: none;
+}
+.anh>img{
+	width: 100%;
+}
+button{
+	padding: 10px 15px;
+	cursor: pointer;
+}
+button:hover{
+	opacity: 0.3;
+}
+button:hover i{
+	color: white;
+}
+#left{
+	position:absolute; 
+	left: 10px;
+	top:45%;
+}
+#right{
+	position: absolute;
+	right: 10px;
+	top: 45%;
+}
+.head{
+	display: block;
+}
+.choose{
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	text-align: right;
+	padding: 10px 20px;
+	right: 0px;
+	z-index:3;
+}
+.choose>p{
+	width: 15px; 
+	height: 15px;
+	background-color: grey;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 5px;
+	border-radius: 50%;
+}
+.choose .active{
+	background-color: white;
+}

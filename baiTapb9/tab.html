@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="en"> <head> 	
+	<meta charset="UTF-8"> 	
+	<title>Document</title> 	
+	<style> 		
+		.tab{ 			
+			display: inline-block; 			
+			width: 100px; 			
+			padding: 10px; 			
+			/*background-color: yellow;*/ 		
+		} 		.content{ 			
+			position: absolute; 			
+			left: 0px; 			
+			padding: 20px; 			
+			background-color: orange; 			
+			display: none; 		} 		
+			.section{ 			
+				display: inline-block; 		
+			}  		.active > .tab{ 		
+			background-color: yellow ; 		
+		} 		
+		.active> .content{ 			
+		background-color: red; 			
+		display: block; 			
+		z-index: 2000; 		
+		}   	
+	</style> 
+</head> 
+<body> 	
+	<div id="container active"> 		
+		<div class="section active"> 			
+			<div class="tab">Tab 1</div> 			
+			<div class="content"> 				
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, nisi 1! 			
+			</div> 		
+		</div> 
+	</div> 		
+	<div class="section"> 			
+		<div class="tab">Tab 2</div> 			
+			<div class="content"> 				
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, nisi 2! 			
+			</div> 		
+		</div> 	
+	</div> 	
+	<div class="section"> 			
+		<div class="tab">Tab 3</div> 			
+			<div class="content"> 				
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, nisi 3! 			
+			</div> 		
+		</div> 		 	
+	</div>  	
+	<script type="text/javascript"> 		
+		var tabs= document.getElementsByClassName('tab'); 		
+		// alert(tabs.length); 		
+		for (var i = 0; i < tabs.length; i++) { 			
+			tabs[i].addEventListener("click", function(){ 				
+			var active= document.getElementsByClassName('active')[0]; 				
+			active.className="section"; 				
+			this.parentNode.className= "section active";  			
+		}); 		
+	} 	
+</script> 
+</body> 
+</html>
