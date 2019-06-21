@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style>
+		.color-red{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<!-- <ul id="a1">
+		<li>ha noi</li>
+		<li>hai phong</li>
+		<li>nam dinh</li>
+	</ul>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, deleniti.
+	</p> -->
+	<div id="theDiv">
+		
+	</div>
+	<!-- <input id="add" type="button" value="add">
+	<input id="remove" type="button" value="remove">
+	<input id="toggle" type="button" value="toggle"> -->
+	<input id="click" type="button" value="them">
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// $('#a1').prepend('<li>sapa</li>');
+			// $('#a1').append('<li>ha giang</li>');
+			// $('#a1').before('<p>hello</p>');
+			// $('#a1').after('<p>xin chao</p>');
+			// $('#add').click(function(){
+			// 	$('p').addClass('color-red');
+			// 	$('li').addClass('color-red');
+			// })
+			// $('#remove').click(function(){
+			// 	$('p').removeClass('color-red');
+			// })
+			// $('#toggle').click(function(){
+			// 	$('p').toggleClass('color-red');
+			// 	$('li').toggleClass('color-red');
+			// })
+			// $('#toggle').on('click',function(){
+			// 	$('p').toggleClass('color-red');
+			// 	$('li').toggleClass('color-red');
+			// })
+			$('#click').click(function(){
+				$('#theDiv').append('<p id="theP">the p vua them</p>')
+			});
+			$('#theDiv').on('click','#theP',function(){
+				$(this).css('color','red');
+			})
+		});
+	</script>
+</body>
+</html>

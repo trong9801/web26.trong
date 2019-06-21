@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>the h1</h1>
+	<p>the p1</p>
+	<p>the p2</p>
+	<input type="button" value="click" onclick="myFunction()">
+	<script>
+		function myFunction() {
+			var h1 =document.getElementsByTagName('h1')[0];
+			h1.parentNode.style.backgroundColor = 'silver';
+			h1.nextElementSibling.style.color = 'yellow'; 
+		}
+	</script>
+</body>
+</html>

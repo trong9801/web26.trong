@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="the_ID">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum molestias nam cumque deleniti aperiam impedit expedita in voluptatibus, sunt earum atque incidunt sequi, magni quae! Nulla, necessitatibus alias fugiat soluta!10
+	</p>
+	<ul>
+		<li class="mb">Ha Noi</li>
+		<li class="mb">Hai Phong</li>
+		<li class="mb">Nam Dinh</li>
+	</ul>
+	<span>1</span>
+	<span>2</span>
+	<span>3</span>
+	<input type="button" value="laTheoID" onclick="cickID()">
+	<input type="button" value="layTheoclass" onclick="clickClass()">
+	<!-- <input type="button" value="layTheoTags" onclick="clickTags()"> -->
+	<script type="text/javascript">
+		function cickID(){
+			var the_ID = document.getElementById('the_ID');
+			alert(the_ID.innerHTML);
+			the_ID.innerHTML ="gi do";
+		}
+		function clickClass(){
+			var class_mb = document.getElementsByClassName('mb');
+			class_mb[0].style.color = ' red ';
+		}
+		// function clickTags(){
+		// 	var clickTags = document.getElementsByTags;
+		// 	class_mb[0].style.color = ' red ';
+		// }
+	</script>
+</body>
+</html>

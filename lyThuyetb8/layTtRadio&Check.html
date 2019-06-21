@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+		<form name="frm" onsubmit="getValue()">
+		<input type="radio" name="rd" value="HTML">HTML
+		<input type="radio" name="rd" value="CSS">CSS
+		<input type="radio" name="rd" value="ad">AC
+		<input type="radio" name="rd" value="cd">CC
+		<input type="submit" name="submit" value="Submit">
+	</form>
+	<script type="text/javascript">
+		function getValue() {
+			for (var i = 0; i < 5; i++) {
+				if (document.frm.rd[i].checked == true) {
+					alert(document.frm.rd[i].value);
+				}
+			}
+		}
+	</script>
+</body>
+</html>

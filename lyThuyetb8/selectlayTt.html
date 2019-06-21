@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form name="frm" onsubmit="getValue()">
+		<select name="slt">
+			<option value="as1">Item1</option>
+			<option value="Item2">Item2</option>
+			<option value="Item3">Item3</option>
+		</select>
+		<input type="submit" name="submit" value="Submit">
+	</form>
+	<script type="text/javascript">
+		function getValue() {
+			var index = document.frm.slt.selectedIndex;
+			alert(document.frm.slt[index].value);
+		}
+	</script>
+</body>
+</html>
